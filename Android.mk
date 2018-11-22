@@ -24,7 +24,7 @@ LOCAL_PATH:= $(call my-dir)
 
 include $(CLEAR_VARS)
 
-LOCAL_MODULE := gatekeeper.amlogic
+LOCAL_MODULE := gatekeeper.$(TARGET_PRODUCT)
 
 LOCAL_MODULE_RELATIVE_PATH := hw
 
